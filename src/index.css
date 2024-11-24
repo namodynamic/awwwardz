@@ -144,7 +144,7 @@ body {
 }
 
 .indicator-line {
-    @apply h-1 w-px rounded-full bg-white transition-all duration-200 ease-in-out;
+    @apply h-2 w-px rounded-full bg-white transition-all duration-200 ease-in-out;
 }
 
 .indicator-line.active {
@@ -220,8 +220,7 @@ body {
 .three-body__dot:nth-child(2)::after {
     bottom: 0;
     left: 0;
-    animation: wobble1 var(--uib-speed) infinite calc(var(--uib-speed) * -0.15)
-    ease-in-out;
+    animation: wobble1 var(--uib-speed) infinite calc(var(--uib-speed) * -0.15) ease-in-out;
 }
 
 .three-body__dot:nth-child(3) {
