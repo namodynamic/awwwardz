@@ -1,12 +1,12 @@
 import React from "react";
 import Hero from "./components/Hero.jsx";
+import About from "./components/About.jsx";
 
 const App = () => {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden">
       <Hero />
-
-      <section className="bg-blue-500 min-h-screen z-0 " />
+      <About />
     </main>
   );
 };
